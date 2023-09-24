@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO - Indian Space Research Organisation</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="isro" src="images/ISRO.png" alt="Mission 1">
+        </div>
+        <h1>Indian Space Research Organisation</h1>
+        <nav class="navBar-head">
+            <ul class="navbar-items">
+                <li><a class="nav-bar" href="#">Home</a></li>
+                <li><a class="nav-bar" href="#">About Us</a></li>
+                <li><a class="nav-bar" href="#">Missions</a></li>
+                <li><a class="nav-bar" href="#">News</a></li>
+                <li><a class="nav-bar" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <h2>Welcome to ISRO</h2>
+            <p>Exploring Space for the Benefit of Mankind</p>
+            <br>
+            <h3 class="latest-missions">Latest Missions:</h3>
+        </section>
+
+        <section id="latest-missions">
+            <div class="mission">
+                <img src="images/mission2.png" alt="Mission 1">
+                <div class="details">
+                    <h3>PSLV-C57/Aditya-L1</h3>
+                    <br>
+                    <p>Launched on: Sep 02, 2023</p>
+                </div>
+            </div>
+            <div class="mission">
+                <img src="images/mission1.png" alt="Mission 1">
+                <div class="details">
+                    <h3>LVM3-M4/Chandrayaan-3</h3>
+                    <br>
+                    <p>Launched on: July 14, 2023</p>
+                </div>
+            </div>
+            <div class="mission">
+                <img src="images/quiz (1).png" alt="Mission 1">
+                <div class="details">
+                    <h3>Chandrayaan-3 MahaQuiz</h3>
+                    <br>
+                    <p>Participate & Win</p>
+                </div>
+            </div>
+            <div class="mission">
+                <img src="images/75.png" alt="Mission 1">
+                <div class="details">
+                    <h3>Azadi Ka Amrit Mahotsav</h3>
+                    <br>
+                    <p>सबका स्वागत</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="video-container">
+        <video controls width="640" height="360" autoplay muted loop>
+            <source src="images/Ch3_lander_descent_rover_rollout (online-video-cutter.com).mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 ISRO - Indian Space Research Organisation</p>
+        <p>Designed by NJAN / ISRO</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.body.addEventListener("click", function () {
+                window.location.href = "./err.html";
+            });
+        });
+    </script>
+</body>
+
+</html>
